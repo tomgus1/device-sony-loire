@@ -20,6 +20,10 @@ SOMC_PLATFORM := loire
 
 SONY_ROOT := device/sony/loire/rootdir
 
+# Sensors config
+#PRODUCT_COPY_FILES += \
+#    $(SONY_ROOT)/system/etc/sec_config:system/etc/sec_config
+
 # Media
 PRODUCT_COPY_FILES += \
     $(SONY_ROOT)/system/etc/aanc_tuning_mixer.txt:system/etc/aanc_tuning_mixer.txt \
